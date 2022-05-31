@@ -14,24 +14,7 @@
     <script src="data.js" type="text/javascript"></script> 
 </head>
 <body>
-        <a href="editing.html">link text</a>
-        <br/>
-        <br/>
-        <br/>
-        <div id="Grid"></div>        
-
-<script >
-
-    var grid = new ej.grids.Grid({
-    dataSource: data,
-    height: 400,
-    columns: [
-            { field: 'OrderID', isPrimaryKey: true, headerText: 'Order ID' },
-            { field: 'CustomerID', headerText: 'CustomerID' },
-            { field: 'EmployeeID', headerText: 'Employee ID' },
-            { field: "ShipCity", headerText: "Ship City", width: 250 },
-    ],
-});
-grid.appendTo('#Grid');
-</script>
+        <a href="normal.html">Normal Gridt</a><br/>
+        <a href="editing.html">Editing types</a><br/>
+        <a href="frozenLeft.html">Frozen Left</a><br/>   
 </body></html>
